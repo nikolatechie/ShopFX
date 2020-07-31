@@ -1,0 +1,39 @@
+.root
+{
+    -fx-background-color: linear-gradient(to top right, rgb(195, 215, 195), white);
+}
+
+.label
+{
+    -fx-text-fill: black;
+    -fx-font-size: 13px;
+}
+
+.button
+{
+    -fx-background-color: rgb(70, 190, 90);
+    -fx-border-color: transparent;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-transition-duration: 0.3s;
+}
+
+#loginBtn
+{
+    -fx-font-size: 18px;
+}
+
+.button:hover
+{
+    -fx-background-color: rgb(50, 170, 80);
+}
+
+.table-row-cell
+{
+    -fx-cell-size: 40px;
+}
+
+.table-cell
+{
+    -fx-alignment: CENTER;
+}
